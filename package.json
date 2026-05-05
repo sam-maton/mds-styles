@@ -1,0 +1,30 @@
+{
+  "name": "mds-styles",
+  "version": "0.1.0",
+  "description": "CSS and SCSS design system tokens for the MDS design system",
+  "keywords": [
+    "design-system",
+    "css-variables",
+    "scss",
+    "tokens",
+    "mds"
+  ],
+  "license": "MIT",
+  "style": "src/index.css",
+  "sass": "src/index.scss",
+  "exports": {
+    ".": "./src/index.css",
+    "./scss": "./src/index.scss",
+    "./primitive": "./src/tokens/primitive/index.css",
+    "./primitive/scss": "./src/tokens/primitive/index.scss",
+    "./semantic": "./src/tokens/semantic/index.css",
+    "./semantic/scss": "./src/tokens/semantic/index.scss"
+  },
+  "files": [
+    "src/"
+  ],
+  "devDependencies": {
+    "stylelint": "^17.11.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

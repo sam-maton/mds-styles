@@ -1,0 +1,13 @@
+/**
+ * MDS Semantic Border Radius Tokens — SCSS Variables
+ *
+ * Named aliases for common border-radius use cases.
+ * References CSS custom properties so values stay in sync with the CSS layer.
+ */
+
+$mds-radius-xs:   var(--mds-radius-xs);
+$mds-radius-sm:   var(--mds-radius-sm);
+$mds-radius-md:   var(--mds-radius-md);
+$mds-radius-lg:   var(--mds-radius-lg);
+$mds-radius-xl:   var(--mds-radius-xl);
+$mds-radius-pill: var(--mds-radius-pill);

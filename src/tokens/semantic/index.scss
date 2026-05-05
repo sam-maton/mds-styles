@@ -1,0 +1,10 @@
+/**
+ * MDS Semantic Tokens — SCSS
+ *
+ * Imports all semantic token SCSS files.
+ */
+
+@forward "./colors";
+@forward "./border-radius";
+@forward "./opacity";
+@forward "./box-shadow";

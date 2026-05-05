@@ -1,0 +1,71 @@
+/**
+ * MDS Semantic Color Tokens — SCSS Variables
+ *
+ * These SCSS variables reference CSS custom properties so that runtime
+ * theme switching (light / dark) is respected.
+ *
+ * Requires the primitive color tokens (CSS variables) to be loaded first.
+ *
+ * Scale for brand / status colors:
+ *   more-prominent (lightest) → prominent → default → subtle → more-subtle (darkest)
+ */
+
+// Background — gets lighter as surface moves closer to the user
+$mds-color-background-page:               var(--mds-color-background-page);
+$mds-color-background-surface:            var(--mds-color-background-surface);
+$mds-color-background-surface-prominent:  var(--mds-color-background-surface-prominent);
+
+// Text
+$mds-color-text-primary:         var(--mds-color-text-primary);
+$mds-color-text-secondary:       var(--mds-color-text-secondary);
+$mds-color-text-subtle:          var(--mds-color-text-subtle);
+$mds-color-text-inverse:         var(--mds-color-text-inverse);
+$mds-color-text-link:            var(--mds-color-text-link);
+$mds-color-text-link-hover:      var(--mds-color-text-link-hover);
+
+// Border
+$mds-color-border-subtle:        var(--mds-color-border-subtle);
+$mds-color-border-default:       var(--mds-color-border-default);
+$mds-color-border-prominent:     var(--mds-color-border-prominent);
+
+// Brand — primary
+$mds-color-brand-primary-more-prominent: var(--mds-color-brand-primary-more-prominent);
+$mds-color-brand-primary-prominent:      var(--mds-color-brand-primary-prominent);
+$mds-color-brand-primary:                var(--mds-color-brand-primary);
+$mds-color-brand-primary-subtle:         var(--mds-color-brand-primary-subtle);
+$mds-color-brand-primary-more-subtle:    var(--mds-color-brand-primary-more-subtle);
+
+// Brand — secondary
+$mds-color-brand-secondary-more-prominent: var(--mds-color-brand-secondary-more-prominent);
+$mds-color-brand-secondary-prominent:      var(--mds-color-brand-secondary-prominent);
+$mds-color-brand-secondary:                var(--mds-color-brand-secondary);
+$mds-color-brand-secondary-subtle:         var(--mds-color-brand-secondary-subtle);
+$mds-color-brand-secondary-more-subtle:    var(--mds-color-brand-secondary-more-subtle);
+
+// Status — success
+$mds-color-status-success-more-prominent: var(--mds-color-status-success-more-prominent);
+$mds-color-status-success-prominent:      var(--mds-color-status-success-prominent);
+$mds-color-status-success:                var(--mds-color-status-success);
+$mds-color-status-success-subtle:         var(--mds-color-status-success-subtle);
+$mds-color-status-success-more-subtle:    var(--mds-color-status-success-more-subtle);
+
+// Status — error
+$mds-color-status-error-more-prominent: var(--mds-color-status-error-more-prominent);
+$mds-color-status-error-prominent:      var(--mds-color-status-error-prominent);
+$mds-color-status-error:                var(--mds-color-status-error);
+$mds-color-status-error-subtle:         var(--mds-color-status-error-subtle);
+$mds-color-status-error-more-subtle:    var(--mds-color-status-error-more-subtle);
+
+// Status — warning
+$mds-color-status-warning-more-prominent: var(--mds-color-status-warning-more-prominent);
+$mds-color-status-warning-prominent:      var(--mds-color-status-warning-prominent);
+$mds-color-status-warning:                var(--mds-color-status-warning);
+$mds-color-status-warning-subtle:         var(--mds-color-status-warning-subtle);
+$mds-color-status-warning-more-subtle:    var(--mds-color-status-warning-more-subtle);
+
+// Status — info
+$mds-color-status-info-more-prominent: var(--mds-color-status-info-more-prominent);
+$mds-color-status-info-prominent:      var(--mds-color-status-info-prominent);
+$mds-color-status-info:                var(--mds-color-status-info);
+$mds-color-status-info-subtle:         var(--mds-color-status-info-subtle);
+$mds-color-status-info-more-subtle:    var(--mds-color-status-info-more-subtle);

@@ -1,0 +1,83 @@
+/**
+ * MDS Primitive Color Tokens — SCSS Variables
+ *
+ * All color values are expressed as HSL. Shades range from 100 (lightest)
+ * to 900 (darkest).
+ */
+
+// Blue
+$mds-blue-100: hsl(210, 100%, 95%);
+$mds-blue-200: hsl(210, 98%, 85%);
+$mds-blue-300: hsl(210, 94%, 72%);
+$mds-blue-400: hsl(210, 88%, 60%);
+$mds-blue-500: hsl(210, 79%, 50%);
+$mds-blue-600: hsl(210, 72%, 42%);
+$mds-blue-700: hsl(210, 64%, 34%);
+$mds-blue-800: hsl(210, 55%, 24%);
+$mds-blue-900: hsl(210, 45%, 14%);
+
+// Red
+$mds-red-100: hsl(0, 100%, 95%);
+$mds-red-200: hsl(0, 96%, 87%);
+$mds-red-300: hsl(0, 90%, 76%);
+$mds-red-400: hsl(0, 83%, 64%);
+$mds-red-500: hsl(0, 72%, 51%);
+$mds-red-600: hsl(0, 65%, 43%);
+$mds-red-700: hsl(0, 57%, 35%);
+$mds-red-800: hsl(0, 48%, 25%);
+$mds-red-900: hsl(0, 39%, 15%);
+
+// Green
+$mds-green-100: hsl(140, 80%, 95%);
+$mds-green-200: hsl(140, 72%, 85%);
+$mds-green-300: hsl(140, 64%, 70%);
+$mds-green-400: hsl(140, 56%, 56%);
+$mds-green-500: hsl(140, 49%, 43%);
+$mds-green-600: hsl(140, 44%, 36%);
+$mds-green-700: hsl(140, 38%, 29%);
+$mds-green-800: hsl(140, 33%, 20%);
+$mds-green-900: hsl(140, 28%, 12%);
+
+// Yellow
+$mds-yellow-100: hsl(48, 100%, 95%);
+$mds-yellow-200: hsl(48, 98%, 88%);
+$mds-yellow-300: hsl(48, 95%, 76%);
+$mds-yellow-400: hsl(48, 90%, 62%);
+$mds-yellow-500: hsl(48, 80%, 50%);
+$mds-yellow-600: hsl(48, 73%, 42%);
+$mds-yellow-700: hsl(48, 65%, 34%);
+$mds-yellow-800: hsl(48, 55%, 25%);
+$mds-yellow-900: hsl(48, 45%, 15%);
+
+// Orange
+$mds-orange-100: hsl(24, 100%, 95%);
+$mds-orange-200: hsl(24, 97%, 87%);
+$mds-orange-300: hsl(24, 92%, 76%);
+$mds-orange-400: hsl(24, 86%, 63%);
+$mds-orange-500: hsl(24, 77%, 52%);
+$mds-orange-600: hsl(24, 70%, 43%);
+$mds-orange-700: hsl(24, 62%, 35%);
+$mds-orange-800: hsl(24, 53%, 25%);
+$mds-orange-900: hsl(24, 43%, 15%);
+
+// Purple
+$mds-purple-100: hsl(270, 100%, 97%);
+$mds-purple-200: hsl(270, 94%, 89%);
+$mds-purple-300: hsl(270, 87%, 78%);
+$mds-purple-400: hsl(270, 78%, 66%);
+$mds-purple-500: hsl(270, 67%, 55%);
+$mds-purple-600: hsl(270, 59%, 45%);
+$mds-purple-700: hsl(270, 51%, 37%);
+$mds-purple-800: hsl(270, 43%, 27%);
+$mds-purple-900: hsl(270, 35%, 17%);
+
+// Gray
+$mds-gray-100: hsl(0, 0%, 97%);
+$mds-gray-200: hsl(0, 0%, 93%);
+$mds-gray-300: hsl(0, 0%, 86%);
+$mds-gray-400: hsl(0, 0%, 72%);
+$mds-gray-500: hsl(0, 0%, 55%);
+$mds-gray-600: hsl(0, 0%, 40%);
+$mds-gray-700: hsl(0, 0%, 26%);
+$mds-gray-800: hsl(0, 0%, 15%);
+$mds-gray-900: hsl(0, 0%, 7%);

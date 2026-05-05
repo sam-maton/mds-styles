@@ -1,0 +1,13 @@
+/**
+ * mds-styles — SCSS entry point
+ *
+ * Use this file to load all MDS design system tokens (primitive + semantic)
+ * as SCSS variables.
+ *
+ * Usage:
+ *   @use "mds-styles/scss" as mds;
+ *   or
+ *   @use "mds-styles/src/index" as mds;
+ */
+
+@forward "./tokens/index";

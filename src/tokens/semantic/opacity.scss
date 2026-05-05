@@ -1,0 +1,14 @@
+/**
+ * MDS Semantic Opacity Tokens — SCSS Variables
+ *
+ * Named aliases for common opacity use cases.
+ * References CSS custom properties so values stay in sync with the CSS layer.
+ *
+ * Scale: more-subtle (most transparent) → subtle → default → prominent → more-prominent (most opaque)
+ */
+
+$mds-opacity-more-subtle:    var(--mds-opacity-more-subtle);
+$mds-opacity-subtle:         var(--mds-opacity-subtle);
+$mds-opacity-default:        var(--mds-opacity-default);
+$mds-opacity-prominent:      var(--mds-opacity-prominent);
+$mds-opacity-more-prominent: var(--mds-opacity-more-prominent);

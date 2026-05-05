@@ -1,0 +1,8 @@
+/**
+ * MDS Tokens — SCSS
+ *
+ * Imports all primitive and semantic token SCSS files.
+ */
+
+@forward "./primitive/index";
+@forward "./semantic/index";

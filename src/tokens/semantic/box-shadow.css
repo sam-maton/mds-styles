@@ -1,0 +1,14 @@
+/**
+ * MDS Semantic Box Shadow Tokens
+ *
+ * Named aliases for common box-shadow use cases.
+ * Requires the primitive box-shadow tokens to be loaded first.
+ */
+
+:root {
+  --mds-shadow-card:     var(--mds-shadow-200);
+  --mds-shadow-dropdown: var(--mds-shadow-300);
+  --mds-shadow-popover:  var(--mds-shadow-400);
+  --mds-shadow-modal:    var(--mds-shadow-500);
+  --mds-shadow-overlay:  var(--mds-shadow-600);
+}

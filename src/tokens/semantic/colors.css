@@ -1,0 +1,139 @@
+/**
+ * MDS Semantic Color Tokens
+ *
+ * Semantic color tokens reference primitive color tokens and describe their
+ * intended purpose. Light-mode values are defined on :root; dark-mode
+ * overrides are applied when [data-theme="dark"] is set on any ancestor
+ * (typically <html>).
+ *
+ * Requires the primitive color tokens to be loaded first.
+ *
+ * Scale for brand / status colors:
+ *   more-prominent (lightest) → prominent → default → subtle → more-subtle (darkest)
+ */
+
+/* ── Light mode (default) ───────────────────────────────────────────────── */
+:root {
+  /* Background — gets lighter as the surface moves closer to the user */
+  --mds-color-background-page:               var(--mds-gray-300);
+  --mds-color-background-surface:            var(--mds-gray-200);
+  --mds-color-background-surface-prominent:  var(--mds-gray-100);
+
+  /* Text */
+  --mds-color-text-primary:         var(--mds-gray-900);
+  --mds-color-text-secondary:       var(--mds-gray-600);
+  --mds-color-text-subtle:          var(--mds-gray-400);
+  --mds-color-text-inverse:         var(--mds-gray-100);
+  --mds-color-text-link:            var(--mds-blue-500);
+  --mds-color-text-link-hover:      var(--mds-blue-700);
+
+  /* Border */
+  --mds-color-border-subtle:        var(--mds-gray-200);
+  --mds-color-border-default:       var(--mds-gray-300);
+  --mds-color-border-prominent:     var(--mds-gray-500);
+
+  /* Brand — primary */
+  --mds-color-brand-primary-more-prominent: var(--mds-blue-300);
+  --mds-color-brand-primary-prominent:      var(--mds-blue-400);
+  --mds-color-brand-primary:                var(--mds-blue-500);
+  --mds-color-brand-primary-subtle:         var(--mds-blue-600);
+  --mds-color-brand-primary-more-subtle:    var(--mds-blue-700);
+
+  /* Brand — secondary */
+  --mds-color-brand-secondary-more-prominent: var(--mds-purple-300);
+  --mds-color-brand-secondary-prominent:      var(--mds-purple-400);
+  --mds-color-brand-secondary:                var(--mds-purple-500);
+  --mds-color-brand-secondary-subtle:         var(--mds-purple-600);
+  --mds-color-brand-secondary-more-subtle:    var(--mds-purple-700);
+
+  /* Status — success */
+  --mds-color-status-success-more-prominent: var(--mds-green-300);
+  --mds-color-status-success-prominent:      var(--mds-green-400);
+  --mds-color-status-success:                var(--mds-green-500);
+  --mds-color-status-success-subtle:         var(--mds-green-600);
+  --mds-color-status-success-more-subtle:    var(--mds-green-700);
+
+  /* Status — error */
+  --mds-color-status-error-more-prominent: var(--mds-red-300);
+  --mds-color-status-error-prominent:      var(--mds-red-400);
+  --mds-color-status-error:                var(--mds-red-500);
+  --mds-color-status-error-subtle:         var(--mds-red-600);
+  --mds-color-status-error-more-subtle:    var(--mds-red-700);
+
+  /* Status — warning */
+  --mds-color-status-warning-more-prominent: var(--mds-yellow-300);
+  --mds-color-status-warning-prominent:      var(--mds-yellow-400);
+  --mds-color-status-warning:                var(--mds-yellow-500);
+  --mds-color-status-warning-subtle:         var(--mds-yellow-600);
+  --mds-color-status-warning-more-subtle:    var(--mds-yellow-700);
+
+  /* Status — info */
+  --mds-color-status-info-more-prominent: var(--mds-blue-300);
+  --mds-color-status-info-prominent:      var(--mds-blue-400);
+  --mds-color-status-info:                var(--mds-blue-500);
+  --mds-color-status-info-subtle:         var(--mds-blue-600);
+  --mds-color-status-info-more-subtle:    var(--mds-blue-700);
+}
+
+/* ── Dark mode ──────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  /* Background — gets lighter (higher contrast) as surface moves closer to user */
+  --mds-color-background-page:               var(--mds-gray-900);
+  --mds-color-background-surface:            var(--mds-gray-800);
+  --mds-color-background-surface-prominent:  var(--mds-gray-700);
+
+  /* Text */
+  --mds-color-text-primary:         var(--mds-gray-100);
+  --mds-color-text-secondary:       var(--mds-gray-400);
+  --mds-color-text-subtle:          var(--mds-gray-600);
+  --mds-color-text-inverse:         var(--mds-gray-900);
+  --mds-color-text-link:            var(--mds-blue-300);
+  --mds-color-text-link-hover:      var(--mds-blue-200);
+
+  /* Border */
+  --mds-color-border-subtle:        var(--mds-gray-800);
+  --mds-color-border-default:       var(--mds-gray-700);
+  --mds-color-border-prominent:     var(--mds-gray-500);
+
+  /* Brand — primary (lighter = more prominent, consistent across themes) */
+  --mds-color-brand-primary-more-prominent: var(--mds-blue-300);
+  --mds-color-brand-primary-prominent:      var(--mds-blue-400);
+  --mds-color-brand-primary:                var(--mds-blue-500);
+  --mds-color-brand-primary-subtle:         var(--mds-blue-600);
+  --mds-color-brand-primary-more-subtle:    var(--mds-blue-700);
+
+  /* Brand — secondary */
+  --mds-color-brand-secondary-more-prominent: var(--mds-purple-300);
+  --mds-color-brand-secondary-prominent:      var(--mds-purple-400);
+  --mds-color-brand-secondary:                var(--mds-purple-500);
+  --mds-color-brand-secondary-subtle:         var(--mds-purple-600);
+  --mds-color-brand-secondary-more-subtle:    var(--mds-purple-700);
+
+  /* Status — success */
+  --mds-color-status-success-more-prominent: var(--mds-green-300);
+  --mds-color-status-success-prominent:      var(--mds-green-400);
+  --mds-color-status-success:                var(--mds-green-500);
+  --mds-color-status-success-subtle:         var(--mds-green-600);
+  --mds-color-status-success-more-subtle:    var(--mds-green-700);
+
+  /* Status — error */
+  --mds-color-status-error-more-prominent: var(--mds-red-300);
+  --mds-color-status-error-prominent:      var(--mds-red-400);
+  --mds-color-status-error:                var(--mds-red-500);
+  --mds-color-status-error-subtle:         var(--mds-red-600);
+  --mds-color-status-error-more-subtle:    var(--mds-red-700);
+
+  /* Status — warning */
+  --mds-color-status-warning-more-prominent: var(--mds-yellow-300);
+  --mds-color-status-warning-prominent:      var(--mds-yellow-400);
+  --mds-color-status-warning:                var(--mds-yellow-500);
+  --mds-color-status-warning-subtle:         var(--mds-yellow-600);
+  --mds-color-status-warning-more-subtle:    var(--mds-yellow-700);
+
+  /* Status — info */
+  --mds-color-status-info-more-prominent: var(--mds-blue-300);
+  --mds-color-status-info-prominent:      var(--mds-blue-400);
+  --mds-color-status-info:                var(--mds-blue-500);
+  --mds-color-status-info-subtle:         var(--mds-blue-600);
+  --mds-color-status-info-more-subtle:    var(--mds-blue-700);
+}

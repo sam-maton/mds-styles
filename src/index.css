@@ -1,0 +1,12 @@
+/**
+ * mds-styles — CSS entry point
+ *
+ * Import this file to load all MDS design system tokens (primitive + semantic).
+ *
+ * Usage:
+ *   @import "mds-styles";
+ *   or
+ *   @import "mds-styles/src/index.css";
+ */
+
+@import "./tokens/index.css";
