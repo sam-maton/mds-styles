@@ -51,7 +51,7 @@ export const AllPalettes = {
     <div style="padding:24px;">
       <h2 style="font-family:sans-serif;margin:0 0 24px;">Primitive Color Tokens</h2>
       <p style="font-family:sans-serif;color:#555;margin:0 0 32px;">
-        Raw colour values expressed as HSL. Shades range from 100 (lightest) to 900 (darkest).
+        Raw color values expressed as HSL. Shades range from 100 (lightest) to 900 (darkest).
       </p>
       ${colorPalettes.map(renderPalette).join('')}
     </div>
