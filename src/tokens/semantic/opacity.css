@@ -1,0 +1,13 @@
+/**
+ * MDS Semantic Opacity Tokens
+ *
+ * Named aliases for common opacity use cases.
+ * Requires the primitive opacity tokens to be loaded first.
+ */
+
+:root {
+  --mds-opacity-disabled: var(--mds-opacity-200);
+  --mds-opacity-overlay:  var(--mds-opacity-300);
+  --mds-opacity-hover:    var(--mds-opacity-400);
+  --mds-opacity-muted:    var(--mds-opacity-500);
+}

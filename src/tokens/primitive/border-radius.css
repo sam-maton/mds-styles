@@ -1,0 +1,14 @@
+/**
+ * MDS Primitive Border Radius Tokens
+ *
+ * Shades range from 100 (smallest) to 600 (largest/full).
+ */
+
+:root {
+  --mds-border-radius-100: 2px;
+  --mds-border-radius-200: 4px;
+  --mds-border-radius-300: 8px;
+  --mds-border-radius-400: 12px;
+  --mds-border-radius-500: 16px;
+  --mds-border-radius-600: 9999px;
+}

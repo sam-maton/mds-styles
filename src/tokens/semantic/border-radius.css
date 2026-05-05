@@ -1,0 +1,15 @@
+/**
+ * MDS Semantic Border Radius Tokens
+ *
+ * Named aliases for common border-radius use cases.
+ * Requires the primitive border-radius tokens to be loaded first.
+ */
+
+:root {
+  --mds-radius-xs:   var(--mds-border-radius-100);
+  --mds-radius-sm:   var(--mds-border-radius-200);
+  --mds-radius-md:   var(--mds-border-radius-300);
+  --mds-radius-lg:   var(--mds-border-radius-400);
+  --mds-radius-xl:   var(--mds-border-radius-500);
+  --mds-radius-pill: var(--mds-border-radius-600);
+}

@@ -1,0 +1,84 @@
+/**
+ * MDS Semantic Color Tokens
+ *
+ * Semantic color tokens reference primitive color tokens and describe their
+ * intended purpose. Light-mode values are defined on :root; dark-mode
+ * overrides are applied when [data-theme="dark"] is set on any ancestor
+ * (typically <html>).
+ *
+ * Requires the primitive color tokens to be loaded first.
+ */
+
+/* ── Light mode (default) ───────────────────────────────────────────────── */
+:root {
+  /* Background */
+  --mds-color-background-page:      var(--mds-gray-100);
+  --mds-color-background-surface:   var(--mds-gray-200);
+  --mds-color-background-neutral:   var(--mds-gray-300);
+  --mds-color-background-inverse:   var(--mds-gray-900);
+
+  /* Text */
+  --mds-color-text-primary:         var(--mds-gray-900);
+  --mds-color-text-secondary:       var(--mds-gray-600);
+  --mds-color-text-muted:           var(--mds-gray-400);
+  --mds-color-text-inverse:         var(--mds-gray-100);
+  --mds-color-text-link:            var(--mds-blue-500);
+  --mds-color-text-link-hover:      var(--mds-blue-700);
+
+  /* Border */
+  --mds-color-border-default:       var(--mds-gray-300);
+  --mds-color-border-strong:        var(--mds-gray-500);
+  --mds-color-border-focus:         var(--mds-blue-500);
+
+  /* Brand */
+  --mds-color-brand-primary:        var(--mds-blue-500);
+  --mds-color-brand-primary-hover:  var(--mds-blue-600);
+  --mds-color-brand-secondary:      var(--mds-purple-500);
+
+  /* Status */
+  --mds-color-status-success:       var(--mds-green-500);
+  --mds-color-status-success-bg:    var(--mds-green-100);
+  --mds-color-status-error:         var(--mds-red-500);
+  --mds-color-status-error-bg:      var(--mds-red-100);
+  --mds-color-status-warning:       var(--mds-yellow-500);
+  --mds-color-status-warning-bg:    var(--mds-yellow-100);
+  --mds-color-status-info:          var(--mds-blue-500);
+  --mds-color-status-info-bg:       var(--mds-blue-100);
+}
+
+/* ── Dark mode ──────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  /* Background */
+  --mds-color-background-page:      var(--mds-gray-900);
+  --mds-color-background-surface:   var(--mds-gray-800);
+  --mds-color-background-neutral:   var(--mds-gray-700);
+  --mds-color-background-inverse:   var(--mds-gray-100);
+
+  /* Text */
+  --mds-color-text-primary:         var(--mds-gray-100);
+  --mds-color-text-secondary:       var(--mds-gray-400);
+  --mds-color-text-muted:           var(--mds-gray-600);
+  --mds-color-text-inverse:         var(--mds-gray-900);
+  --mds-color-text-link:            var(--mds-blue-300);
+  --mds-color-text-link-hover:      var(--mds-blue-200);
+
+  /* Border */
+  --mds-color-border-default:       var(--mds-gray-700);
+  --mds-color-border-strong:        var(--mds-gray-500);
+  --mds-color-border-focus:         var(--mds-blue-400);
+
+  /* Brand */
+  --mds-color-brand-primary:        var(--mds-blue-400);
+  --mds-color-brand-primary-hover:  var(--mds-blue-300);
+  --mds-color-brand-secondary:      var(--mds-purple-400);
+
+  /* Status */
+  --mds-color-status-success:       var(--mds-green-400);
+  --mds-color-status-success-bg:    var(--mds-green-900);
+  --mds-color-status-error:         var(--mds-red-400);
+  --mds-color-status-error-bg:      var(--mds-red-900);
+  --mds-color-status-warning:       var(--mds-yellow-400);
+  --mds-color-status-warning-bg:    var(--mds-yellow-900);
+  --mds-color-status-info:          var(--mds-blue-400);
+  --mds-color-status-info-bg:       var(--mds-blue-900);
+}

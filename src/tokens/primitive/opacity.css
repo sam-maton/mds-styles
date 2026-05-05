@@ -1,0 +1,14 @@
+/**
+ * MDS Primitive Opacity Tokens
+ *
+ * Shades range from 100 (most transparent) to 600 (fully opaque).
+ */
+
+:root {
+  --mds-opacity-100: 0.1;
+  --mds-opacity-200: 0.2;
+  --mds-opacity-300: 0.4;
+  --mds-opacity-400: 0.6;
+  --mds-opacity-500: 0.8;
+  --mds-opacity-600: 1;
+}

@@ -1,0 +1,10 @@
+/**
+ * MDS Semantic Tokens — CSS
+ *
+ * Imports all semantic token CSS files.
+ */
+
+@import "./colors.css";
+@import "./border-radius.css";
+@import "./opacity.css";
+@import "./box-shadow.css";

@@ -1,0 +1,10 @@
+/**
+ * MDS Primitive Tokens — SCSS
+ *
+ * Imports all primitive token SCSS files.
+ */
+
+@forward "./colors";
+@forward "./border-radius";
+@forward "./opacity";
+@forward "./box-shadow";

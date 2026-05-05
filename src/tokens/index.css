@@ -1,0 +1,8 @@
+/**
+ * MDS Tokens — CSS
+ *
+ * Imports all primitive and semantic token CSS files.
+ */
+
+@import "./primitive/index.css";
+@import "./semantic/index.css";

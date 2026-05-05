@@ -1,0 +1,12 @@
+/**
+ * MDS Semantic Box Shadow Tokens — SCSS Variables
+ *
+ * Named aliases for common box-shadow use cases.
+ * References CSS custom properties so values stay in sync with the CSS layer.
+ */
+
+$mds-shadow-card:     var(--mds-shadow-card);
+$mds-shadow-dropdown: var(--mds-shadow-dropdown);
+$mds-shadow-popover:  var(--mds-shadow-popover);
+$mds-shadow-modal:    var(--mds-shadow-modal);
+$mds-shadow-overlay:  var(--mds-shadow-overlay);

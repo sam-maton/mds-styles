@@ -1,0 +1,42 @@
+/**
+ * MDS Semantic Color Tokens — SCSS Variables
+ *
+ * These SCSS variables reference CSS custom properties so that runtime
+ * theme switching (light / dark) is respected.
+ *
+ * Requires the primitive color tokens (CSS variables) to be loaded first.
+ */
+
+// Background
+$mds-color-background-page:      var(--mds-color-background-page);
+$mds-color-background-surface:   var(--mds-color-background-surface);
+$mds-color-background-neutral:   var(--mds-color-background-neutral);
+$mds-color-background-inverse:   var(--mds-color-background-inverse);
+
+// Text
+$mds-color-text-primary:         var(--mds-color-text-primary);
+$mds-color-text-secondary:       var(--mds-color-text-secondary);
+$mds-color-text-muted:           var(--mds-color-text-muted);
+$mds-color-text-inverse:         var(--mds-color-text-inverse);
+$mds-color-text-link:            var(--mds-color-text-link);
+$mds-color-text-link-hover:      var(--mds-color-text-link-hover);
+
+// Border
+$mds-color-border-default:       var(--mds-color-border-default);
+$mds-color-border-strong:        var(--mds-color-border-strong);
+$mds-color-border-focus:         var(--mds-color-border-focus);
+
+// Brand
+$mds-color-brand-primary:        var(--mds-color-brand-primary);
+$mds-color-brand-primary-hover:  var(--mds-color-brand-primary-hover);
+$mds-color-brand-secondary:      var(--mds-color-brand-secondary);
+
+// Status
+$mds-color-status-success:       var(--mds-color-status-success);
+$mds-color-status-success-bg:    var(--mds-color-status-success-bg);
+$mds-color-status-error:         var(--mds-color-status-error);
+$mds-color-status-error-bg:      var(--mds-color-status-error-bg);
+$mds-color-status-warning:       var(--mds-color-status-warning);
+$mds-color-status-warning-bg:    var(--mds-color-status-warning-bg);
+$mds-color-status-info:          var(--mds-color-status-info);
+$mds-color-status-info-bg:       var(--mds-color-status-info-bg);

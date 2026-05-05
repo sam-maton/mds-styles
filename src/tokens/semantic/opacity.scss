@@ -1,0 +1,11 @@
+/**
+ * MDS Semantic Opacity Tokens — SCSS Variables
+ *
+ * Named aliases for common opacity use cases.
+ * References CSS custom properties so values stay in sync with the CSS layer.
+ */
+
+$mds-opacity-disabled: var(--mds-opacity-disabled);
+$mds-opacity-overlay:  var(--mds-opacity-overlay);
+$mds-opacity-hover:    var(--mds-opacity-hover);
+$mds-opacity-muted:    var(--mds-opacity-muted);
