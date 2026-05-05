@@ -1,5 +1,5 @@
 {
-  "name": "mds-styles",
+  "name": "@maton/mds-styles",
   "version": "0.1.0",
   "description": "CSS and SCSS design system tokens for the MDS design system",
   "keywords": [
@@ -23,6 +23,9 @@
   "files": [
     "src/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
