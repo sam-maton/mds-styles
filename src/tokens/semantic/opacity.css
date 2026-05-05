@@ -3,11 +3,14 @@
  *
  * Named aliases for common opacity use cases.
  * Requires the primitive opacity tokens to be loaded first.
+ *
+ * Scale: more-subtle (most transparent) → subtle → default → prominent → more-prominent (most opaque)
  */
 
 :root {
-  --mds-opacity-disabled: var(--mds-opacity-200);
-  --mds-opacity-overlay:  var(--mds-opacity-300);
-  --mds-opacity-hover:    var(--mds-opacity-400);
-  --mds-opacity-muted:    var(--mds-opacity-500);
+  --mds-opacity-more-subtle:   var(--mds-opacity-100);
+  --mds-opacity-subtle:        var(--mds-opacity-200);
+  --mds-opacity-default:       var(--mds-opacity-300);
+  --mds-opacity-prominent:     var(--mds-opacity-400);
+  --mds-opacity-more-prominent: var(--mds-opacity-500);
 }
