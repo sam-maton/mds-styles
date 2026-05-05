@@ -1,0 +1,66 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Installation" />
+
+# Installation
+
+## Requirements
+
+- Node.js 18 or later
+- A project that supports CSS imports or SCSS
+
+## Install
+
+```bash
+npm install mds-styles
+```
+
+## Usage
+
+### CSS — all tokens
+
+Import the full token set (primitive + semantic) in your CSS entry point:
+
+```css
+@import "mds-styles";
+```
+
+### CSS — individual layers
+
+```css
+/* Primitive tokens only */
+@import "mds-styles/primitive";
+
+/* Semantic tokens only (primitive tokens must be loaded first) */
+@import "mds-styles/semantic";
+```
+
+### SCSS
+
+```scss
+/* All tokens */
+@use "mds-styles/scss" as mds;
+
+/* Primitive tokens only */
+@use "mds-styles/primitive/scss" as primitive;
+
+/* Semantic tokens only */
+@use "mds-styles/semantic/scss" as semantic;
+```
+
+## Theming
+
+Semantic tokens support both light and dark mode. To activate dark mode, set the `data-theme="dark"` attribute on any ancestor element — typically `<html>`:
+
+```html
+<html data-theme="dark">
+  …
+</html>
+```
+
+No extra JavaScript is required. Switching between themes at runtime is as simple as toggling the attribute:
+
+```js
+document.documentElement.setAttribute('data-theme', 'dark');
+document.documentElement.removeAttribute('data-theme'); // back to light
+```
