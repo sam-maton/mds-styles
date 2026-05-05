@@ -1,0 +1,35 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# MDS Styles
+
+Welcome to the **MDS Design System Styles** documentation.
+
+MDS Styles is a framework-agnostic token library that provides CSS custom properties and SCSS variables for every design decision in the MDS design system. Tokens are organised into two layers:
+
+- **Primitive tokens** — raw values (colours, radii, opacity levels, shadows) that form the foundation of the system.
+- **Semantic tokens** — named aliases that reference primitives and describe *purpose* rather than value. They automatically adapt to light and dark themes.
+
+## Explore
+
+Use the sidebar to browse the available token categories:
+
+| Section | Description |
+|---|---|
+| **Primitive / Colors** | Full colour palettes (blue, red, green, yellow, orange, purple, gray) |
+| **Primitive / Border Radius** | Raw radius scale (100 – 600) |
+| **Primitive / Opacity** | Numeric opacity scale (100 – 600) |
+| **Primitive / Box Shadow** | Elevation shadow scale (100 – 600) |
+| **Semantic / Colors** | Contextual colour tokens for backgrounds, text, borders, brand, and status |
+| **Semantic / Border Radius** | Named radius aliases (xs, sm, md, lg, xl, pill) |
+| **Semantic / Opacity** | Named opacity aliases (more-subtle → more-prominent) |
+| **Semantic / Box Shadow** | Named shadow aliases (card, dropdown, popover, modal, overlay) |
+
+## Theming
+
+Semantic tokens support **light** and **dark** mode. Add `data-theme="dark"` to any ancestor element (typically `<html>`) to switch to dark mode:
+
+```html
+<html data-theme="dark">
+```
