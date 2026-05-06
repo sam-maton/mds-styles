@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish:
-    name: Publish @maton/mds-styles
+    name: Publish @smaton/mds-styles
     runs-on: ubuntu-latest
     environment: npm-publish
     permissions:
