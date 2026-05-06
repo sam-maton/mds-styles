@@ -1,6 +1,6 @@
 {
   "name": "@maton/mds-styles",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "CSS and SCSS design system tokens for the MDS design system",
   "keywords": [
     "design-system",
